@@ -1,6 +1,6 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 import { SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY } from "./config.js";
-const supabase = createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
+const supabase = createClient(SUPABASE_URL, sb_publishable_fOyZVhZWVDRoepk89e-OBA_Givz6hpx);
 const signupForm = document.getElementById("signupForm");
 const loginForm = document.getElementById("loginForm");
 function message(el, text, error=false){ if(!el)return; el.textContent=text; el.classList.toggle("error",error); }
